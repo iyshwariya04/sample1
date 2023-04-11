@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,800;1,900&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,300;1,400&display=swap');
+
+body{
+    font-family: 'Merriweather' sans-serif;
+    margin: 0;
+    width: 100%;
+    min-width: 800px;
+    background: #020307;
+}
+/* HEADER */
+
+.header{
+    background: #020307;
+    width: 100%;
+}
+
+.header nav{
+    display: inline-block;
+    color: #ffff;
+    margin-left: 49%s;
+}
+
+.header nav ul{
+    list-style-type: none;
+    
+}
+
+.header nav li{
+    display: inline;  
+   flex: left;
+   padding: 0 20px;
+}
+
+.header nav ul a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.header nav ul a:hover li{
+    color: #01D5A2;
+    
+}
+
+.header .icon{
+    display: inline;
+    margin-left: 59%;
+    justify-content: flex-end;
+}
+
+.header .icon a{
+    text-decoration: none;
+}
+
+.header .icon a:hover i{
+    transform: scale(2);
+}
+
+.header .icon i{
+    display: inline;
+    justify-content: flex-end;
+    padding: 0 20px;
+}
+
+/* MAIN CONTAINER */
+.main h1, .main h2{
+    color: #ffff;
+    font-size: 40px;
+    font-weight: 900px;
+    text-align: center;
+}
+
+.main .name{
+    color: #01D5A2;
+}
+
+.main .profile img{
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid #01D5A2;
+    margin: 40px auto;
+    padding: 10px;
+}
+.main .skill{
+    display: block;
+    margin: 30px auto;
+    width: 90%;
+    align-items: center;
+    border: none;
+    
+    
+}
+.main .skill fieldset{
+    display: inline;
+    width: 30%;
+    color: #ffff;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px;
+    border: none;
+}
+
+.main .skill fieldset img{
+    display: block;
+    margin: 10px auto;
+    width: 235px;
+    height: 204px;
+}
+
+.main .skill fieldset p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.14px;
+    text-align: justify;
+}
+
+hr{
+    border: none;
+    border-top: 10px dotted #01D5A2;
+    width: 100px;
+    height: 5px;
+}
+
+.main .contact{
+    display: block;
+    margin: 80px auto;
+    width: 30%;
+}
+.main .contact p{
+    font-size: 24px;
+    color: #ffff;
+    text-align: justify;
+    padding: 20px;
+}
+
+.main button{
+    display: block;
+    width: 250px;
+    height: 40px;
+    margin: 60px auto;
+    background-color: #01D5A2;
+    border: none;
+    border-radius: 2rem;
+}
+
+.main button a{
+    text-decoration: none;
+    color: #020307;
+    font-size: 20px;
+}
+
+.main button:hover{
+    background-color: #ffff;
+    font-weight: 400;
+    transform: scale(1.5);
+}
+
+.main button a:hover{
+    color: #01D5A2;
+}
+
+/* FOOTER */
+
+.footer{
+    margin: 20px;
+    padding: 80px;
+}
+
+.footer p{
+    font-size: 18px;
+    color:  #01D5A2;
+    margin: 0 10px;
+    text-align: center;
+}
